@@ -4,15 +4,15 @@
 
 require 'formula'
 
-class VelaAT010 < Formula
+class VelaAT01 < Formula
   # repository information
   head "https://github.com/go-vela/cli.git"
   homepage 'https://github.com/go-vela/cli'
 
   # utility information
-  version 'v0.1.0'
+  version 'v0.1.1'
   url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
-  sha256 '1e9e733d9626fe657cd7b13e4479e8f7f3bd3cda7acf9ddb9ff988610e0172a5'
+  sha256 '974d0122889e2c2a9c463af955d8c6522933caed9a762f79645e5829caea4f32'
 
   # install information
   def install
