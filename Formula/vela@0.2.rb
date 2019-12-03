@@ -4,7 +4,7 @@
 
 require 'formula'
 
-class VelaAT01 < Formula
+class VelaAT02 < Formula
   # repository information
   head "https://github.com/go-vela/cli.git"
   homepage 'https://github.com/go-vela/cli'
