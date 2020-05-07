@@ -10,9 +10,9 @@ class Vela < Formula
   homepage 'https://github.com/go-vela/cli'
 
   # utility information
-  version 'v0.4.0'
+  version 'v0.4.1'
   url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
-  sha256 'bc12e9d0bdcc5dc5c222e4ca5d818a9b74e21a1e79c668f59bd404b50803612e'
+  sha256 'c4d4d41c6179100f7d68c0022dd7a3fb833d8245e770f507af3302252d8d6694'
 
   # install information
   def install
