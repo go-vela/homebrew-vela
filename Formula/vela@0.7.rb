@@ -10,9 +10,9 @@ class VelaAT07 < Formula
   homepage 'https://github.com/go-vela/cli'
 
   # utility information
-  version 'v0.7.0'
+  version 'v0.7.2'
   url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
-  sha256 'df8d2046e94b1d040b5a70a42c8f07d87242c3dfa52a22ca3f10f710aa5b3c80'
+  sha256 'fa0d011a99daefa3ad80216412e33b56445d1942671ac4498cdbbafc1908a7db'
 
   # install information
   def install
