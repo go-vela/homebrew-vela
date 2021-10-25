@@ -1,8 +1,11 @@
+
 # Copyright (c) 2021 Target Brands, Inc. All rights reserved.
 #
 # Use of this source code is governed by the LICENSE file in this repository.
 
-class Vela < Formula
+require 'formula'
+
+class VelaAT010 < Formula
   # repository information
   head "https://github.com/go-vela/cli.git"
   homepage 'https://github.com/go-vela/cli'
@@ -33,7 +36,7 @@ class Vela < Formula
       url "#{homepage}/releases/download/#{version}/vela_linux_amd64.tar.gz"
       sha256 '295b40efcf0dd3f602bd562734ea2657edbb4a1bd0a88a532bacab7e343a13ed'
   end
-  
+
   # install information
   def install
     bin.install 'vela'
