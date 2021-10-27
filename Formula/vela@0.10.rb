@@ -21,6 +21,7 @@ class VelaAT010 < Formula
     else
       url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
       sha256 '4c2d467769b61ed16e930c9ed036422a68e60cc5e406a112d9598f29036d42d1'
+    end
   end
     
   # linux
@@ -32,9 +33,11 @@ class VelaAT010 < Formula
       else
         url "#{homepage}/releases/download/#{version}/vela_linux_arm.tar.gz"
         sha256 '22d7a12b819a195f674b26d81fa4d415da0b63457fe0f4edb35b1a4523b07dd6'
+      end
     else
       url "#{homepage}/releases/download/#{version}/vela_linux_amd64.tar.gz"
       sha256 '295b40efcf0dd3f602bd562734ea2657edbb4a1bd0a88a532bacab7e343a13ed'
+    end
   end
 
   # install information
