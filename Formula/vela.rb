@@ -8,16 +8,16 @@ class Vela < Formula
   homepage 'https://github.com/go-vela/cli'
 
   # utility information
-  version 'v0.13.2'
+  version 'v0.13.3'
 
   # macOS
   on_macos do
     if Hardware::CPU.arm?
       url "#{homepage}/releases/download/#{version}/vela_darwin_arm64.tar.gz"
-      sha256 'cd6e011828d9215adf61e43c6672d8a1690d1c039b544bf6e33f204bb7fcb593'
+      sha256 '7b32f936439378b0b618321a219be46b828b664a440a1979bc055b122e5d5ba3'
     else
       url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
-      sha256 '40ae7a8d3ead5e783f822b594c0c13a49d3273c0b14a8323da0f3cce448844af'
+      sha256 '4874aa4991c8e4470bde88aa6078701a629440e90b248ace343b0812f325597b'
     end
   end
 
@@ -26,14 +26,14 @@ class Vela < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "#{homepage}/releases/download/#{version}/vela_linux_arm64.tar.gz"
-        sha256 'b0bf742347a05ccd212b27267dc7489a7b309818b1e4902eaef76f77597258a2'
+        sha256 '6f1a46eda99f9c20ce42b288d02cc71ff9e35020917a0e2bafae773f1a360ab7'
       else
         url "#{homepage}/releases/download/#{version}/vela_linux_arm.tar.gz"
-        sha256 '6ea1da9370d2e74e3c7c17e3ab859d931e2f3249732c5874f83aae3499737a75'
+        sha256 'fa33ab2fbcda6e71ada446cc76bbc62261772aaadf28b1dcc1feda361bfac252'
       end
     else
       url "#{homepage}/releases/download/#{version}/vela_linux_amd64.tar.gz"
-      sha256 'fc8d4f8a00954e55a03025ee046fa332262a71f5e4ca9fc5356e1c23a82b9912'
+      sha256 '35347c3d7598882a6e357e986b7237bd9d974cc59609cc95e08623f9ec5c8979'
     end
   end
 
