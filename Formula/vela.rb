@@ -33,7 +33,7 @@ class Vela < Formula
       end
     else
       url "#{homepage}/releases/download/#{version}/vela_linux_amd64.tar.gz"
-      sha256 '63163a20501aa39ea5c8413850e4a70fb4ce8c40fd4c5d689bbfb32a34e69723'
+      sha256 '4125754b184f0c7f209b8de63458d8da80cd19b520ba6a50f51825e72047a2c2'
     end
   end
 
