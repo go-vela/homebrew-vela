@@ -10,7 +10,7 @@ class VelaAT018 < Formula
   homepage 'https://github.com/go-vela/cli'
 
   # utility information
-  version 'v0.18.0'
+  version 'v0.18.1'
 
   # macOS
   on_macos do
