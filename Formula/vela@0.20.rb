@@ -2,7 +2,9 @@
 #
 # Use of this source code is governed by the LICENSE file in this repository.
 
-class Vela < Formula
+require 'formula'
+
+class VelaAT020 < Formula
   # repository information
   head 'https://github.com/go-vela/cli.git'
   homepage 'https://github.com/go-vela/cli'
@@ -17,7 +19,7 @@ class Vela < Formula
       sha256 '87321bf8d17c8d1199055e345ab1932ea0eff43ae2c0ba5b02f96552f782d22a'
     else
       url "#{homepage}/releases/download/#{version}/vela_darwin_amd64.tar.gz"
-      sha256 '0f6055ef3df294600416afb1cb0b97f45ae2334273db76d985b542f43655400e '
+      sha256 '0f6055ef3df294600416afb1cb0b97f45ae2334273db76d985b542f43655400e'
     end
   end
 
