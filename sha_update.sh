@@ -6,11 +6,11 @@ function sha_update() {
 
   local HEADER="# Copyright (c) 2023 Target Brands, Inc. All rights reserved.\n#\n# Use of this source code is governed by the LICENSE file in this repository.\n"
 
-  local LINUX_AMD64=$(cat $CHECKSUMS_PATH | grep darwin_amd64 | awk '{ print $1 }')
-  local LINUX_ARM64=$(cat $CHECKSUMS_PATH | grep darwin_amd64 | awk '{ print $1 }')
-  local LINUX_ARM=$(cat $CHECKSUMS_PATH | grep darwin_amd64 | awk '{ print $1 }')
+  local LINUX_AMD64=$(cat $CHECKSUMS_PATH | grep linux_amd64 | awk '{ print $1 }')
+  local LINUX_ARM64=$(cat $CHECKSUMS_PATH | grep linux_arm64 | awk '{ print $1 }')
+  local LINUX_ARM=$(cat $CHECKSUMS_PATH | grep linux_arm.tar | awk '{ print $1 }')
   local DARWIN_AMD64=$(cat $CHECKSUMS_PATH | grep darwin_amd64 | awk '{ print $1 }')
-  local DARWIN_ARM64=$(cat $CHECKSUMS_PATH | grep darwin_amd64 | awk '{ print $1 }')
+  local DARWIN_ARM64=$(cat $CHECKSUMS_PATH | grep darwin_arm64 | awk '{ print $1 }')
 
   echo -e $HEADER > Formula/vela.rb
 
