@@ -2,7 +2,9 @@
 #
 # Use of this source code is governed by the LICENSE file in this repository.
 
-class Vela < Formula
+require 'formula'
+
+class VelaAT026 < Formula
   # repository information
   head 'https://github.com/go-vela/cli.git'
   homepage 'https://github.com/go-vela/cli'
